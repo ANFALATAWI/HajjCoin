@@ -8,21 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1832448F4853CEC983BF721D /* Pods_HajjCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2409955AD563E6EEA98B06C3 /* Pods_HajjCoin.framework */; };
+		505D8C24211369920078413D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505D8C23211369920078413D /* Assets.xcassets */; };
+		50E49E342113A9050093C733 /* SegueFromLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E49E332113A9050093C733 /* SegueFromLeft.swift */; };
+		50E49E362113AA6B0093C733 /* SegueFromRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E49E352113AA6B0093C733 /* SegueFromRight.swift */; };
 		884BE9F12113108400B3FF10 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884BE9F02113108400B3FF10 /* InitialViewController.swift */; };
 		884BE9F32113212E00B3FF10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 884BE9F22113212E00B3FF10 /* GoogleService-Info.plist */; };
 		887C7C5B2111F49D00A6B495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C5A2111F49D00A6B495 /* AppDelegate.swift */; };
-		887C7C622111F49E00A6B495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887C7C612111F49E00A6B495 /* Assets.xcassets */; };
 		887C7C652111F49E00A6B495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887C7C632111F49E00A6B495 /* LaunchScreen.storyboard */; };
 		887C7C6E2111F4C800A6B495 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C6D2111F4C800A6B495 /* ProfileViewController.swift */; };
 		887C7C702111F4E300A6B495 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C6F2111F4E300A6B495 /* MainViewController.swift */; };
 		887C7C722111F50000A6B495 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C712111F50000A6B495 /* MapViewController.swift */; };
-		887C7C742111F51300A6B495 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C732111F51300A6B495 /* ScrollViewController.swift */; };
 		887C7C7D2111F57600A6B495 /* ScrollStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887C7C7C2111F57600A6B495 /* ScrollStoryboard.storyboard */; };
 		887C7C7F2112299400A6B495 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C7E2112299400A6B495 /* HistoryTableViewCell.swift */; };
 		887C7C8121122EF100A6B495 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C8021122EF100A6B495 /* ViewController.swift */; };
-		887C7C8321122F1700A6B495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887C7C8221122F1700A6B495 /* Main.storyboard */; };
 		887C7C86211230C100A6B495 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 887C7C85211230C100A6B495 /* MapKit.framework */; };
-		887C7C88211245F800A6B495 /* Extra.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887C7C87211245F800A6B495 /* Extra.storyboard */; };
 		887C7C8A21124F8700A6B495 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C8921124F8700A6B495 /* QRViewController.swift */; };
 		887C7C8C2112EF2100A6B495 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C8B2112EF2100A6B495 /* CameraViewController.swift */; };
 		887C7C8E211305F900A6B495 /* InitialStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887C7C8D211305F900A6B495 /* InitialStoryboard.storyboard */; };
@@ -30,23 +29,22 @@
 
 /* Begin PBXFileReference section */
 		2409955AD563E6EEA98B06C3 /* Pods_HajjCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HajjCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		505D8C23211369920078413D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
+		50E49E332113A9050093C733 /* SegueFromLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromLeft.swift; sourceTree = "<group>"; };
+		50E49E352113AA6B0093C733 /* SegueFromRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromRight.swift; sourceTree = "<group>"; };
 		884BE9F02113108400B3FF10 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		884BE9F22113212E00B3FF10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		887C7C572111F49D00A6B495 /* HajjCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HajjCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		887C7C5A2111F49D00A6B495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		887C7C612111F49E00A6B495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		887C7C642111F49E00A6B495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		887C7C662111F49E00A6B495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		887C7C6D2111F4C800A6B495 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		887C7C6F2111F4E300A6B495 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		887C7C712111F50000A6B495 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		887C7C732111F51300A6B495 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		887C7C7C2111F57600A6B495 /* ScrollStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollStoryboard.storyboard; sourceTree = "<group>"; };
 		887C7C7E2112299400A6B495 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 		887C7C8021122EF100A6B495 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		887C7C8221122F1700A6B495 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		887C7C85211230C100A6B495 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		887C7C87211245F800A6B495 /* Extra.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Extra.storyboard; sourceTree = "<group>"; };
 		887C7C8921124F8700A6B495 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
 		887C7C8B2112EF2100A6B495 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		887C7C8D211305F900A6B495 /* InitialStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InitialStoryboard.storyboard; sourceTree = "<group>"; };
@@ -97,10 +95,10 @@
 		887C7C592111F49D00A6B495 /* HajjCoin */ = {
 			isa = PBXGroup;
 			children = (
+				505D8C23211369920078413D /* Assets.xcassets */,
 				887C7C6C2111F4AA00A6B495 /* Controller */,
 				887C7C752111F52B00A6B495 /* View */,
 				887C7C5A2111F49D00A6B495 /* AppDelegate.swift */,
-				887C7C612111F49E00A6B495 /* Assets.xcassets */,
 				884BE9F22113212E00B3FF10 /* GoogleService-Info.plist */,
 				887C7C662111F49E00A6B495 /* Info.plist */,
 			);
@@ -115,10 +113,11 @@
 				887C7C712111F50000A6B495 /* MapViewController.swift */,
 				887C7C8021122EF100A6B495 /* ViewController.swift */,
 				887C7C7E2112299400A6B495 /* HistoryTableViewCell.swift */,
-				887C7C732111F51300A6B495 /* ScrollViewController.swift */,
 				887C7C8921124F8700A6B495 /* QRViewController.swift */,
 				887C7C8B2112EF2100A6B495 /* CameraViewController.swift */,
 				884BE9F02113108400B3FF10 /* InitialViewController.swift */,
+				50E49E332113A9050093C733 /* SegueFromLeft.swift */,
+				50E49E352113AA6B0093C733 /* SegueFromRight.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -128,9 +127,7 @@
 			children = (
 				887C7C7C2111F57600A6B495 /* ScrollStoryboard.storyboard */,
 				887C7C8D211305F900A6B495 /* InitialStoryboard.storyboard */,
-				887C7C87211245F800A6B495 /* Extra.storyboard */,
 				887C7C632111F49E00A6B495 /* LaunchScreen.storyboard */,
-				887C7C8221122F1700A6B495 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,7 +177,7 @@
 						CreatedOnToolsVersion = 9.4.1;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -210,11 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				887C7C652111F49E00A6B495 /* LaunchScreen.storyboard in Resources */,
-				887C7C622111F49E00A6B495 /* Assets.xcassets in Resources */,
 				887C7C8E211305F900A6B495 /* InitialStoryboard.storyboard in Resources */,
-				887C7C88211245F800A6B495 /* Extra.storyboard in Resources */,
 				887C7C7D2111F57600A6B495 /* ScrollStoryboard.storyboard in Resources */,
-				887C7C8321122F1700A6B495 /* Main.storyboard in Resources */,
+				505D8C24211369920078413D /* Assets.xcassets in Resources */,
 				884BE9F32113212E00B3FF10 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,13 +274,14 @@
 			files = (
 				887C7C7F2112299400A6B495 /* HistoryTableViewCell.swift in Sources */,
 				887C7C6E2111F4C800A6B495 /* ProfileViewController.swift in Sources */,
-				887C7C742111F51300A6B495 /* ScrollViewController.swift in Sources */,
 				887C7C8A21124F8700A6B495 /* QRViewController.swift in Sources */,
+				50E49E362113AA6B0093C733 /* SegueFromRight.swift in Sources */,
 				887C7C5B2111F49D00A6B495 /* AppDelegate.swift in Sources */,
 				884BE9F12113108400B3FF10 /* InitialViewController.swift in Sources */,
 				887C7C8121122EF100A6B495 /* ViewController.swift in Sources */,
 				887C7C722111F50000A6B495 /* MapViewController.swift in Sources */,
 				887C7C702111F4E300A6B495 /* MainViewController.swift in Sources */,
+				50E49E342113A9050093C733 /* SegueFromLeft.swift in Sources */,
 				887C7C8C2112EF2100A6B495 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
