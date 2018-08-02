@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1832448F4853CEC983BF721D /* Pods_HajjCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2409955AD563E6EEA98B06C3 /* Pods_HajjCoin.framework */; };
+		884BE9F12113108400B3FF10 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884BE9F02113108400B3FF10 /* InitialViewController.swift */; };
+		884BE9F32113212E00B3FF10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 884BE9F22113212E00B3FF10 /* GoogleService-Info.plist */; };
+		887C7C5B2111F49D00A6B495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C5A2111F49D00A6B495 /* AppDelegate.swift */; };
+		887C7C622111F49E00A6B495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887C7C612111F49E00A6B495 /* Assets.xcassets */; };
+		887C7C652111F49E00A6B495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887C7C632111F49E00A6B495 /* LaunchScreen.storyboard */; };
+		887C7C6E2111F4C800A6B495 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C6D2111F4C800A6B495 /* ProfileViewController.swift */; };
+		887C7C702111F4E300A6B495 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C6F2111F4E300A6B495 /* MainViewController.swift */; };
+		887C7C722111F50000A6B495 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C712111F50000A6B495 /* MapViewController.swift */; };
+		887C7C742111F51300A6B495 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C732111F51300A6B495 /* ScrollViewController.swift */; };
+		887C7C7D2111F57600A6B495 /* ScrollStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887C7C7C2111F57600A6B495 /* ScrollStoryboard.storyboard */; };
+		887C7C7F2112299400A6B495 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C7E2112299400A6B495 /* HistoryTableViewCell.swift */; };
+		887C7C8121122EF100A6B495 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C8021122EF100A6B495 /* ViewController.swift */; };
+		887C7C8321122F1700A6B495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887C7C8221122F1700A6B495 /* Main.storyboard */; };
+		887C7C86211230C100A6B495 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 887C7C85211230C100A6B495 /* MapKit.framework */; };
+		887C7C88211245F800A6B495 /* Extra.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887C7C87211245F800A6B495 /* Extra.storyboard */; };
+		887C7C8A21124F8700A6B495 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C8921124F8700A6B495 /* QRViewController.swift */; };
+		887C7C8C2112EF2100A6B495 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7C8B2112EF2100A6B495 /* CameraViewController.swift */; };
+		887C7C8E211305F900A6B495 /* InitialStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887C7C8D211305F900A6B495 /* InitialStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2409955AD563E6EEA98B06C3 /* Pods_HajjCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HajjCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		884BE9F02113108400B3FF10 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		884BE9F22113212E00B3FF10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		887C7C572111F49D00A6B495 /* HajjCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HajjCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		887C7C5A2111F49D00A6B495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		887C7C612111F49E00A6B495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		887C7C642111F49E00A6B495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		887C7C662111F49E00A6B495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887C7C6D2111F4C800A6B495 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		887C7C6F2111F4E300A6B495 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		887C7C712111F50000A6B495 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		887C7C732111F51300A6B495 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		887C7C7C2111F57600A6B495 /* ScrollStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollStoryboard.storyboard; sourceTree = "<group>"; };
+		887C7C7E2112299400A6B495 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		887C7C8021122EF100A6B495 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		887C7C8221122F1700A6B495 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		887C7C85211230C100A6B495 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		887C7C87211245F800A6B495 /* Extra.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Extra.storyboard; sourceTree = "<group>"; };
+		887C7C8921124F8700A6B495 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		887C7C8B2112EF2100A6B495 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		887C7C8D211305F900A6B495 /* InitialStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InitialStoryboard.storyboard; sourceTree = "<group>"; };
+		99AB8E2704A878DF60AB08BC /* Pods-HajjCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HajjCoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-HajjCoin/Pods-HajjCoin.release.xcconfig"; sourceTree = "<group>"; };
+		FF261DBDA55592C5C5B02208 /* Pods-HajjCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HajjCoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HajjCoin/Pods-HajjCoin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		887C7C542111F49D00A6B495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887C7C86211230C100A6B495 /* MapKit.framework in Frameworks */,
+				1832448F4853CEC983BF721D /* Pods_HajjCoin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C2D1CF96B28FDEDF847E4D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF261DBDA55592C5C5B02208 /* Pods-HajjCoin.debug.xcconfig */,
+				99AB8E2704A878DF60AB08BC /* Pods-HajjCoin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		887C7C4E2111F49D00A6B495 = {
+			isa = PBXGroup;
+			children = (
+				887C7C592111F49D00A6B495 /* HajjCoin */,
+				887C7C582111F49D00A6B495 /* Products */,
+				887C7C84211230C100A6B495 /* Frameworks */,
+				6C2D1CF96B28FDEDF847E4D2 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		887C7C582111F49D00A6B495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				887C7C572111F49D00A6B495 /* HajjCoin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		887C7C592111F49D00A6B495 /* HajjCoin */ = {
+			isa = PBXGroup;
+			children = (
+				887C7C6C2111F4AA00A6B495 /* Controller */,
+				887C7C752111F52B00A6B495 /* View */,
+				887C7C5A2111F49D00A6B495 /* AppDelegate.swift */,
+				887C7C612111F49E00A6B495 /* Assets.xcassets */,
+				884BE9F22113212E00B3FF10 /* GoogleService-Info.plist */,
+				887C7C662111F49E00A6B495 /* Info.plist */,
+			);
+			path = HajjCoin;
+			sourceTree = "<group>";
+		};
+		887C7C6C2111F4AA00A6B495 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				887C7C6D2111F4C800A6B495 /* ProfileViewController.swift */,
+				887C7C6F2111F4E300A6B495 /* MainViewController.swift */,
+				887C7C712111F50000A6B495 /* MapViewController.swift */,
+				887C7C8021122EF100A6B495 /* ViewController.swift */,
+				887C7C7E2112299400A6B495 /* HistoryTableViewCell.swift */,
+				887C7C732111F51300A6B495 /* ScrollViewController.swift */,
+				887C7C8921124F8700A6B495 /* QRViewController.swift */,
+				887C7C8B2112EF2100A6B495 /* CameraViewController.swift */,
+				884BE9F02113108400B3FF10 /* InitialViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		887C7C752111F52B00A6B495 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				887C7C7C2111F57600A6B495 /* ScrollStoryboard.storyboard */,
+				887C7C8D211305F900A6B495 /* InitialStoryboard.storyboard */,
+				887C7C87211245F800A6B495 /* Extra.storyboard */,
+				887C7C632111F49E00A6B495 /* LaunchScreen.storyboard */,
+				887C7C8221122F1700A6B495 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		887C7C84211230C100A6B495 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				887C7C85211230C100A6B495 /* MapKit.framework */,
+				2409955AD563E6EEA98B06C3 /* Pods_HajjCoin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		887C7C562111F49D00A6B495 /* HajjCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887C7C692111F49E00A6B495 /* Build configuration list for PBXNativeTarget "HajjCoin" */;
+			buildPhases = (
+				50E9AF92E000933547A84F0F /* [CP] Check Pods Manifest.lock */,
+				887C7C532111F49D00A6B495 /* Sources */,
+				887C7C542111F49D00A6B495 /* Frameworks */,
+				887C7C552111F49D00A6B495 /* Resources */,
+				05E17CE24516B8F55E9770AC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HajjCoin;
+			productName = HajjCoin;
+			productReference = 887C7C572111F49D00A6B495 /* HajjCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		887C7C4F2111F49D00A6B495 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Anfal Alatawi";
+				TargetAttributes = {
+					887C7C562111F49D00A6B495 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 887C7C522111F49D00A6B495 /* Build configuration list for PBXProject "HajjCoin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 887C7C4E2111F49D00A6B495;
+			productRefGroup = 887C7C582111F49D00A6B495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				887C7C562111F49D00A6B495 /* HajjCoin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		887C7C552111F49D00A6B495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887C7C652111F49E00A6B495 /* LaunchScreen.storyboard in Resources */,
+				887C7C622111F49E00A6B495 /* Assets.xcassets in Resources */,
+				887C7C8E211305F900A6B495 /* InitialStoryboard.storyboard in Resources */,
+				887C7C88211245F800A6B495 /* Extra.storyboard in Resources */,
+				887C7C7D2111F57600A6B495 /* ScrollStoryboard.storyboard in Resources */,
+				887C7C8321122F1700A6B495 /* Main.storyboard in Resources */,
+				884BE9F32113212E00B3FF10 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E17CE24516B8F55E9770AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HajjCoin/Pods-HajjCoin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HajjCoin/Pods-HajjCoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50E9AF92E000933547A84F0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HajjCoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		887C7C532111F49D00A6B495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887C7C7F2112299400A6B495 /* HistoryTableViewCell.swift in Sources */,
+				887C7C6E2111F4C800A6B495 /* ProfileViewController.swift in Sources */,
+				887C7C742111F51300A6B495 /* ScrollViewController.swift in Sources */,
+				887C7C8A21124F8700A6B495 /* QRViewController.swift in Sources */,
+				887C7C5B2111F49D00A6B495 /* AppDelegate.swift in Sources */,
+				884BE9F12113108400B3FF10 /* InitialViewController.swift in Sources */,
+				887C7C8121122EF100A6B495 /* ViewController.swift in Sources */,
+				887C7C722111F50000A6B495 /* MapViewController.swift in Sources */,
+				887C7C702111F4E300A6B495 /* MainViewController.swift in Sources */,
+				887C7C8C2112EF2100A6B495 /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		887C7C632111F49E00A6B495 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				887C7C642111F49E00A6B495 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		887C7C672111F49E00A6B495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		887C7C682111F49E00A6B495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		887C7C6A2111F49E00A6B495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF261DBDA55592C5C5B02208 /* Pods-HajjCoin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQDJ99YBZX;
+				INFOPLIST_FILE = HajjCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HajjCoin.HajjCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		887C7C6B2111F49E00A6B495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99AB8E2704A878DF60AB08BC /* Pods-HajjCoin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQDJ99YBZX;
+				INFOPLIST_FILE = HajjCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HajjCoin.HajjCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		887C7C522111F49D00A6B495 /* Build configuration list for PBXProject "HajjCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887C7C672111F49E00A6B495 /* Debug */,
+				887C7C682111F49E00A6B495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887C7C692111F49E00A6B495 /* Build configuration list for PBXNativeTarget "HajjCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887C7C6A2111F49E00A6B495 /* Debug */,
+				887C7C6B2111F49E00A6B495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 887C7C4F2111F49D00A6B495 /* Project object */;
+}
