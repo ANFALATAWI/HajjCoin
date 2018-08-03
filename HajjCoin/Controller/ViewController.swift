@@ -11,6 +11,7 @@ import CoreLocation
 import MapKit
 
 class ViewController: UIViewController , CLLocationManagerDelegate {
+    
     @IBOutlet weak var map: MKMapView!
     
     let locationManager = CLLocationManager()

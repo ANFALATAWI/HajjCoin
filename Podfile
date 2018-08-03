@@ -13,5 +13,6 @@ target 'HajjCoin' do
   pod 'Firebase/Auth'
   pod 'Firebase/Core'
   pod 'Firebase/Storage'
+  pod 'SVProgressHUD'
 
 end

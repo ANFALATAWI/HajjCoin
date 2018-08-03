@@ -12,6 +12,7 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
 {
     @IBOutlet weak var historyTable: UITableView!
     
+    @IBOutlet weak var balanceLabel: UILabel!
     let list = ["Starbucks", "AlDanube", "Albaik"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
@@ -40,4 +41,6 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+
 }

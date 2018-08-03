@@ -12,7 +12,6 @@ import MapKit
 
 
 class MapViewController: UIViewController , CLLocationManagerDelegate {
-
     @IBOutlet weak var map: MKMapView!
     
     let locationManager = CLLocationManager()
@@ -20,6 +19,8 @@ class MapViewController: UIViewController , CLLocationManagerDelegate {
     var long:Double = 0.0
     let span = MKCoordinateSpanMake(0.2,0.2)
     
+    
+    // getting location attribute
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let location = locations[0]
         lat = location.coordinate.latitude
@@ -44,7 +45,9 @@ class MapViewController: UIViewController , CLLocationManagerDelegate {
         map.addAnnotation(annotation3)
         map.addAnnotation(annotation4)
         
-
+    }
+    @IBAction func backPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     
     override func viewDidLoad() {
@@ -54,16 +57,12 @@ class MapViewController: UIViewController , CLLocationManagerDelegate {
         // Ask for Authorisation from the User.
         self.locationManager.requestAlwaysAuthorization()
         locationManager.startUpdatingLocation()
-        
-        
-        
     }
-   
-    // getting location attribute
- 
-    @IBAction func backPressed(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
+    
+    
+    
+    
+    
     
     
 }
